@@ -8,11 +8,11 @@ body {
     display: flex;
     flex-direction: column; /* 縦に並べる */
     align-items: center;
-    margin-top: 50px;
+    margin-top: 5px;
 }
 
 .link-button {
-    padding: 15px 30px; /* ボタンの大きさを統一 */
+    padding: 10px 30px; /* ボタンの大きさを統一 */
     background-color: #54473f; /* 茶色 */
     color: white;
     text-decoration: none;
@@ -31,17 +31,17 @@ body {
 .image-container {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .top-image img {
-    width: 250px; /* 上の画像の幅を固定 */
+    width: 200px; /* 上の画像の幅を固定 */
     height: auto; /* 高さは自動調整 */
     border-radius: 10px; /* 画像に少し丸みを追加 */
 }
 
 .bottom-image img {
-    width: 500px; /* 下の画像の幅を固定 */
+    width: 280px; /* 下の画像の幅を固定 */
     height: auto; /* 高さは自動調整 */
     border-radius: 10px; /* 画像に少し丸みを追加 */
 }

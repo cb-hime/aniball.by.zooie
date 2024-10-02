@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap'); /* シンプルなゴシック系フォントをインポート */
+
+body {
+    font-family: 'Noto Sans JP', sans-serif; /* 全体のフォントを変更 */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* 縦に並べる */
+    align-items: center;
+    margin-top: 50px;
+}
+
+.link-button {
+    padding: 15px 30px; /* ボタンの大きさを統一 */
+    background-color: #54473f; /* 茶色 */
+    color: white;
+    text-decoration: none;
+    border-radius: 20px; /* 丸みを帯びた角 */
+    border: 2px solid #54473f; /* 濃い茶色のボーダー */
+    font-size: 1.2em; /* フォントサイズを少し大きく */
+    margin: 10px 0; /* ボタン間のスペース */
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.link-button:hover {
+    background-color: #362d28; /* 濃い茶色 */
+    transform: scale(1.1); /* ホバー時に少し大きくなる */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.top-image img {
+    width: 250px; /* 上の画像の幅を固定 */
+    height: auto; /* 高さは自動調整 */
+    border-radius: 10px; /* 画像に少し丸みを追加 */
+}
+
+.bottom-image img {
+    width: 500px; /* 下の画像の幅を固定 */
+    height: auto; /* 高さは自動調整 */
+    border-radius: 10px; /* 画像に少し丸みを追加 */
+}

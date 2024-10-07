@@ -12,14 +12,14 @@ body {
 }
 
 .link-button {
-    padding: 10px 30px; /* ボタンの大きさを統一 */
+    padding: 8px 30px; /* ボタンの大きさを統一 */
     background-color: #54473f; /* 茶色 */
     color: white;
     text-decoration: none;
     border-radius: 30px; /* 丸みを帯びた角 */
     border: 2px solid #54473f; /* 濃い茶色のボーダー */
-    font-size: 1.2em; /* フォントサイズを少し大きく */
-    margin: 10px 0; /* ボタン間のスペース */
+    font-size: 1.1em; /* フォントサイズを少し大きく */
+    margin: 6px 0; /* ボタン間のスペース */
     transition: background-color 0.3s, transform 0.3s;
 }
 
@@ -31,7 +31,7 @@ body {
 .image-container {
     display: flex;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 .top-image img {
